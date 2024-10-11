@@ -5,24 +5,56 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Khanyi's WeatherApp</title>
+    <link rel="stylesheet" href="src/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
-    <header>
-        <form>
-            <input type="search" placeholder="Enter a city" required>
-            <input type="submit" value="Search" id="">
-        </form>
-    </header>
-    <main>
-        <div>
-            <h1>Johannesburg
-            </h1>
-            <p>Friday 19:09, few clouds<br />
-                Humidity: 83%, Wind: 2.06km/h</p>
-        </div>
-        <div>☀️ 28°C</div>
-    </main>
+    <div class="weather-app">
+        <header>
+            <form>
+                <input type="search" placeholder="Enter a city" required>
+                <input type="submit" value="Search" id="">
+            </form>
+        </header>
+        <main>
+            <div>
+                <h1>Johannesburg
+                </h1>
+                <p>Friday 19:09, few clouds<br />
+                    Humidity: 83%, Wind: 2.06km/h</p>
+            </div>
+            <div>☀️ 28°C</div>
+
+            <div class="forecast-weather">
+                <ul>
+                    <li>
+                        Sunday 🌦️ <br />
+                        <strong>14°C </strong>- 18°C
+                    </li>
+                    <li>
+                        Monday ⛈️ <br />
+                        <strong>9°C </strong>- 12°C
+                    </li>
+                    <li>
+                        Tuesday ⛅ <br />
+                        <strong>16°C </strong>- 20°C
+                    </li>
+                    <li>
+                        Wednesday 🌤️ <br />
+                        <strong>17°C </strong>- 22°C
+                    </li>
+                    <li>
+                        Thursday ☀️ <br />
+                        <strong>16°C </strong>- 25°C
+                    </li>
+                </ul>
+            </div>
+        </main>
 </body>
 <footer>
     <p>
@@ -32,5 +64,6 @@
         <a href="https://app.netlify.com/sites/khanyi-weatherapp/overview" target="_blank">hosted on Netlify</a>
     </p>
 </footer>
+</div>
 
 </html>

@@ -11,7 +11,7 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
         rel="stylesheet">
-        <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
 </head>
 
 <body>
@@ -19,12 +19,8 @@
     <div class="weather-app">
         <header>
             <form class="search-form" id="search-form">
-                <input 
-                type="search" 
-                placeholder="Enter a city" 
-                required 
-                id="search-form-input"
-                class="search-form-input">
+                <input type="search" placeholder="Enter a city" required id="search-form-input"
+                    class="search-form-input">
                 <input type="submit" value="Search" class="search-form-button">
             </form>
         </header>
@@ -34,9 +30,12 @@
                     <h1 class="weather-app-city" id="city">
                     </h1>
                     <p class="weather-app-details">
-                        Friday 19:09, few clouds<br />
-                        Humidity: <strong>83%</strong>
-                        , Wind: <strong>2.06km/h</strong></p>
+                        <span id="time"></span>,
+                        <span id="description"></span>
+                        <br />
+                        Humidity: <strong id="humidity"></strong>
+                        , Wind: <strong id="wind"></strong>
+                    </p>
                 </div>
                 <div class="weather-app-temperature-container">
                     <div class="weather-app-icon">☀️</div>
@@ -71,16 +70,18 @@
             </div>
         </main>
 
-<footer>
-    <p>
-        Coded by <a href="https://www.shecodes.io/graduates/131971-khanyisile-jozie" target="_blank">Khanyi Jozie</a>
-        and is open-sourced on
-        <a href="https://github.com/KJozie88/my-weather-app" target="_blank">GitHub</a> and
-        <a href="https://app.netlify.com/sites/khanyi-weatherapp/overview" target="_blank">hosted on Netlify</a>
-    </p>
-</footer>
-</div>
-<script src="src/index.js">
-</script>
+        <footer>
+            <p>
+                Coded by <a href="https://www.shecodes.io/graduates/131971-khanyisile-jozie" target="_blank">Khanyi
+                    Jozie</a>
+                and is open-sourced on
+                <a href="https://github.com/KJozie88/my-weather-app" target="_blank">GitHub</a> and
+                <a href="https://app.netlify.com/sites/khanyi-weatherapp/overview" target="_blank">hosted on Netlify</a>
+            </p>
+        </footer>
+    </div>
+    <script src="src/index.js">
+    </script>
 </body>
+
 </html>

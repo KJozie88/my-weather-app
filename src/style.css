@@ -1,14 +1,18 @@
 body {
-    background-color: #e2e3e5;
+    background-image: url(https://images.pexels.com/photos/33044/sunflower-sun-summer-yellow.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+
+    background-repeat: no-repeat;
+    background-size: cover;
     font-family: "Ubuntu", sans-serif;
 }
+
 a {
     color: #885df1;
 }
 
 
 .weather-app {
-    background-color: white;
+  background: rgba(255, 255, 255, 0.7);
     max-width: 600px;
     margin: 30px auto;
     padding: 30px;

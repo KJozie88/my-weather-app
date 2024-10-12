@@ -1,6 +1,5 @@
 body {
-    background-image: url(https://images.pexels.com/photos/33044/sunflower-sun-summer-yellow.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
-
+    background-image: url(https://images.pexels.com/photos/18145805/pexels-photo-18145805/free-photo-of-view-of-a-cloudy-sky.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load);
     background-repeat: no-repeat;
     background-size: cover;
     font-family: "Ubuntu", sans-serif;
@@ -49,7 +48,7 @@ main {
 .weather-app-city {
   margin: 0; 
   font-size: 38px;
-  line-height: 48px;
+  line-height: 20px;
   font-weight: 700;
 }
 
@@ -74,8 +73,8 @@ main {
 }
 
 .weather-app-icon {
-    font-size: 50px;
-    margin-top: 13px;
+width: 100px;
+height: 100px;
 }
 
 .weather-app-temperature {
